@@ -3,7 +3,37 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
+ul.icons li > a, ul.icons li > span {
+    border: 0;
+    text-decoration: none;
+}
+a .glyphicon-large-link {
+    border-color: #337ab7;
+}
+.glyphicon-large-link {
+    font-size: 100px;
+    padding: 30px;
+    border: 10px solid #333;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 body,
 html {
     width: 100%;
